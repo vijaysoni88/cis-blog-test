@@ -1,0 +1,2 @@
+$('#comments').append('<%= j(render 'comments/comment', comment: @comment).html_safe %>')
+$('#comment_commenter, #comment_body').val('')

@@ -1,0 +1,4 @@
+en:
+  post:
+    notify:
+      subject: "%{title} is Added Successfully!"

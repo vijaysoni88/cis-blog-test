@@ -1,0 +1,13 @@
+<div class='media p-3' id='comment_<%= comment.id %>'>
+  <div class='media-body'>
+    <strong>Commenter</strong>
+    <p><%= comment.commenter %></p>
+    <strong>Body</strong>
+    <p><%= comment.body %></p>
+    <p>
+      <%= link_to 'Destroy Comment', [comment.article, comment],
+                   method: :delete, remote: true, class: 'btn btn-danger btn-sm',
+                   data: { confirm: 'Are you sure?' } %>
+    </p>
+  </div>
+</div>
