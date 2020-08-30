@@ -12,6 +12,6 @@ Things you may want to cover:
 * Configuration
   i) Run bundle install
   ii) rails db:migrate
-  iii) rails db:seeed
+  iii) rails db:seed
 * ...
 # cis-blog-test
